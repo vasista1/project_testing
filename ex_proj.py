@@ -16,3 +16,4 @@ def square_of_numbers(a):
     if not isinstance(a, (int,float)):
         raise ValueError("Enter a number")
     return a ** 2
+
